@@ -6,7 +6,6 @@ const passport = require('passport');
 const generaJsonWebToken = require("../../jwt/generajwt");
 require('./auth');
 const {GOOGLE_CLIENT_ID}= process.env
-console.log(GOOGLE_CLIENT_ID);
 
 const corsOptions = {
 	origin: '*', 
