@@ -31,7 +31,7 @@ routerGoogle.get("/auth/google", (req, res) => {
 	try {
 		const googleAuthUrl = "https://accounts.google.com/o/oauth2/v2/auth" +
 		  "?response_type=code" +
-		  "&redirect_uri=https://bookhubback.vercel.app/auth/google/callback" +
+		  "&redirect_uri=https://bookhub-backend-e97y.onrender.com/auth/google/callback" +
 		  "&scope= email profile" + 
 		  "&client_id=" + GOOGLE_CLIENT_ID;
 		// Devuelve la URL de autenticación de Google al cliente
